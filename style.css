@@ -46,6 +46,11 @@ a {
     display: flex;
     gap:16px;
 }
+.headerone img {
+    object-fit: cover;
+    width: 150px;
+    height: 100px;
+}
 
 .headertwo {
     display: flex;
@@ -76,11 +81,11 @@ a {
 
 }
 .headertwo img {
-    border-radius: 4px;
-    display: flex;
+    border-radius: 4px;    
     height: 200px;
     min-width: 50%;
     margin-left: 10px;
+    object-fit: cover;
 }
 .contentone {
     display: flex;
@@ -117,6 +122,8 @@ a {
     min-width: 70%;
     margin-left: 10px;
     flex:1;
+    justify-content: space-evenly;
+    object-fit: cover;
 }
 .contenttwo{
     display: flex;
