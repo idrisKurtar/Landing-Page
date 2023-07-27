@@ -8,15 +8,23 @@ padding: 0;
 }
 body {
 font-family: 'Poppons', sans-serif;
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+
 
 
 }
 .header {
-    background-color: #1f2937;
+    background-color: #1f2937;    
     display: flex;
     padding: 0 100px;
     flex-direction: column;
-    padding-top: 5px;
+    padding-top: 5px;    ;
+    justify-content: center;
+    
+    
+    
     
     
 }
